@@ -1,0 +1,100 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,135,167,1) 35%, rgba(106,152,186,1) 49%, rgba(0,212,255,1) 100%);
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+
+.responsive-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.heading-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;;
+    background-color: transparent;
+    color: #58cd9f;
+   
+    font-weight: 400;
+  font-style: normal;
+   
+    height: 50px;
+    width: 300px;
+
+}
+
+.heading-button h1 {
+    font-size: 36px;
+}
+
+.company-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover{
+    color: #58cd9f;
+}
+
+
+.icon-container button {
+    margin: 20px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
+
+.icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:710px) {
+    .responsive-container {
+        width: 100%;
+    }
+
+    .heading-button {
+        width: 20%;
+    }
+
+    .heading-button h1 {
+        display: none;
+    }
+
+    .icon-container {
+        width: 80%;
+    }
+
+    .icon {
+        color: white;
+        width: 20px;
+        height: 20px;
+    }
+
+ 
+}
